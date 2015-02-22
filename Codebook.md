@@ -111,6 +111,8 @@ are shown as a separate row.
 12. The output from the tidy dataset was then formatted for better on-screen appearance and for
 inclusion of GitHub.
 
+13. The final output was saved as "tidy_table.txt" and is in a tab-delineated format. 
+
 ##Current Variables
 Two key variables within the final tidy data sets are:
 
