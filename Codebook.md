@@ -144,78 +144,78 @@ fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag
 to indicate frequency domain signals).
 
 These signals were used to estimate variables of the feature vector for each pattern: 
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions."
+-XYZ is used to denote 3-axial signals in the X, Y and Z directions."
 
 Of these outputs, only the mean and standard deviation of these measures have been included within
 the dataset. All these vectors are numeric and have been standardised, so range between -1 and 1. The list of these 
 variables are:
 
-tBodyAccmeanX
-tBodyAccmeanY
-tBodyAccmeanZ  
-tBodyAccstdX  
-tBodyAccstdY  
-tBodyAccstdZ  
-tGravityAccmeanX   
-tGravityAccmeanY  
-tGravityAccmeanZ   
-tGravityAccstdX   
-tGravityAccstdY   
-tGravityAccstdZ   
-tBodyAccJerkmeanX  
-tBodyAccJerkmeanY  
-tBodyAccJerkmeanZ  
-tBodyAccJerkstdX   
-tBodyAccJerkstdY   
-tBodyAccJerkstdZ  
-tBodyGyromeanX   
-tBodyGyromeanY   
-tBodyGyromeanZ   
-tBodyGyrostdX   
-tBodyGyrostdY  
-tBodyGyrostdZ  
-tBodyGyroJerkmeanX  
-tBodyGyroJerkmeanY  
-tBodyGyroJerkmeanZ  
-tBodyGyroJerkstdX  
-tBodyGyroJerkstdY  
-tBodyGyroJerkstdZ  
-tBodyAccMagmean   
-tBodyAccMagstd   
-tGravityAccMagmean  
-tGravityAccMagstd  
-tBodyAccJerkMagmean  
-tBodyAccJerkMagstd  
-tBodyGyroMagmean   
-tBodyGyroMagstd   
-tBodyGyroJerkMagmean  
-tBodyGyroJerkMagstd  
-fBodyAccmeanX  
-fBodyAccmeanY   
-fBodyAccmeanZ  
-fBodyAccstdX  
-fBodyAccstdY  
-fBodyAccstdZ  
-fBodyAccJerkmeanX  
-fBodyAccJerkmeanY  
-fBodyAccJerkmeanZ  
-fBodyAccJerkstdX  
-fBodyAccJerkstdY   
-fBodyAccJerkstdZ   
-fBodyGyromeanX   
-fBodyGyromeanY   
-fBodyGyromeanZ   
-fBodyGyrostdX  
-fBodyGyrostdY  
-fBodyGyrostdZ   
-fBodyAccMagmean   
-fBodyAccMagstd   
-fBodyBodyAccJerkMagmean  
-fBodyBodyAccJerkMagstd  
-fBodyBodyGyroMagmean  
-fBodyBodyGyroMagstd  
-fBodyBodyGyroJerkMagmean 
-fBodyBodyGyroJerkMagstd
+>tBodyAccmeanX 
+>tBodyAccmeanY 
+>tBodyAccmeanZ  
+>tBodyAccstdX  
+>tBodyAccstdY  
+>tBodyAccstdZ  
+>tGravityAccmeanX   
+>tGravityAccmeanY  
+>tGravityAccmeanZ   
+>tGravityAccstdX   
+>tGravityAccstdY   
+>tGravityAccstdZ   
+>tBodyAccJerkmeanX  
+>tBodyAccJerkmeanY  
+>tBodyAccJerkmeanZ  
+>tBodyAccJerkstdX   
+>tBodyAccJerkstdY   
+>tBodyAccJerkstdZ  
+>tBodyGyromeanX   
+>tBodyGyromeanY   
+>tBodyGyromeanZ   
+>tBodyGyrostdX   
+>tBodyGyrostdY  
+>tBodyGyrostdZ  
+>tBodyGyroJerkmeanX  
+>tBodyGyroJerkmeanY  
+>tBodyGyroJerkmeanZ  
+>tBodyGyroJerkstdX  
+>tBodyGyroJerkstdY  
+>tBodyGyroJerkstdZ  
+>tBodyAccMagmean   
+>tBodyAccMagstd   
+>tGravityAccMagmean  
+>tGravityAccMagstd  
+>tBodyAccJerkMagmean  
+>tBodyAccJerkMagstd  
+>tBodyGyroMagmean   
+>tBodyGyroMagstd   
+>tBodyGyroJerkMagmean  
+>tBodyGyroJerkMagstd  
+>fBodyAccmeanX  
+>fBodyAccmeanY   
+>fBodyAccmeanZ  
+>fBodyAccstdX  
+>fBodyAccstdY  
+>fBodyAccstdZ  
+>fBodyAccJerkmeanX  
+>fBodyAccJerkmeanY  
+>fBodyAccJerkmeanZ  
+>fBodyAccJerkstdX  
+>fBodyAccJerkstdY   
+>fBodyAccJerkstdZ   
+>fBodyGyromeanX   
+>fBodyGyromeanY   
+>fBodyGyromeanZ   
+>fBodyGyrostdX  
+>fBodyGyrostdY  
+>fBodyGyrostdZ   
+>fBodyAccMagmean   
+>fBodyAccMagstd   
+>fBodyBodyAccJerkMagmean  
+>fBodyBodyAccJerkMagstd  
+>fBodyBodyGyroMagmean  
+>fBodyBodyGyroMagstd  
+>fBodyBodyGyroJerkMagmean 
+>fBodyBodyGyroJerkMagstd
 
  ### Closing Note
  
