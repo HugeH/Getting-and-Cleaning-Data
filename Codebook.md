@@ -71,33 +71,33 @@ This process will not work if these packages aren't installed prior to starting 
 3. The key files (indicated above) are called into R using the same file names.
 
 4. The raw data was prepared. 
-..*'features' had an unnecessary column deleted and the variable names were cleaned of 
+..* 'features' had an unnecessary column deleted and the variable names were cleaned of 
 problematic characters that could interfere with labelling
-..*The raw datasets were labelled to prior to merging.
-..*The "subject_train" and "subject_test" variables saw their column labeled as "SubjectNumber".
-..*The features variable name list was used to title the X_test and X_train data files.
-..*The Y_test and Y_train variables were titled "Activity", since they represented the test
+..* The raw datasets were labelled to prior to merging.
+..* The "subject_train" and "subject_test" variables saw their column labeled as "SubjectNumber".
+..* The features variable name list was used to title the X_test and X_train data files.
+..* The Y_test and Y_train variables were titled "Activity", since they represented the test
 set.
 
 5. The data files were merged
-..*First the data_test data frame was merged from subject_test, Y_test, X_test, then the
+..* First the data_test data frame was merged from subject_test, Y_test, X_test, then the
 same was done with subject_train, Y_train and X_train to create the data_train frame.
-..*Then the data_test and data_train files were merged together.
+..* Then the data_test and data_train files were merged together.
 
 6. Given that only the mean and standard deviation variables were wanted, these variables
 were located in the data set by the use of wildcard functions.
-..*However, the wildcard function for mean also returned meanFreq variables, which aren't
+..* However, the wildcard function for mean also returned meanFreq variables, which aren't
 needed in this analysis. 
-..*As such, the variable mean_variables and std_variables were created to highlight only the required 
+..* As such, the variable mean_variables and std_variables were created to highlight only the required 
 variables.
-..*The needed_variables vector was used to pull together a list of required variables in the final data set,
+..* The needed_variables vector was used to pull together a list of required variables in the final data set,
 including SubjectNumber and Activity, plus the mean and standard deviation vectors.
 
 7. The merged file was filtered to ensure that only the needed vectors were included in it.
-..*This saw the meanFreq vectors removed from the dataset.
+..* This saw the meanFreq vectors removed from the dataset.
 
 8. The Activity vector was named to ensure that they had descriptive names (as requested).
-..*These were based on the activity_labels.txt file: 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS
+..* These were based on the activity_labels.txt file: 1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS
 4 SITTING, 5 STANDING, 6 LAYING.
 
 9. The working data set was reshaped to create a more focused data set that combined subject number
@@ -113,7 +113,7 @@ inclusion of GitHub.
 
 13. The final output was saved as "tidy_table.txt" and is in a tab-delineated format. 
 
-##Current Variables
+## Current Variables
 Two key variables within the final tidy data sets are:
 
  SubjectNumber - The unique subject number, ranging from 1 to 30. This vector is an integer.
@@ -211,8 +211,8 @@ the dataset. These vectors are all numeric. The list of these variables are:
  fBodyBodyGyroJerkMagmean  
  fBodyBodyGyroJerkMagstd 
  
- ##Closing Note
+ ## Closing Note
  The tidy_table.txt data set is shown in a wide format in order to leave it more
  easily readable.
  
- #Thanks!
+ # Thanks!
